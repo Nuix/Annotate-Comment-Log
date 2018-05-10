@@ -19,7 +19,7 @@ Doe, Jane [ABCD] (XYZ) @ Jun 02, 2010 11:59:01 PM: Aligned icons, fixed fonts to
 The script searches the case for potential items to scrape this information from using the following query:
 
 ```
-properties:\"Contains Comments:true\" AND name:( ppt OR pptx )
+properties:"Contains Comments:true" AND name:( ppt OR pptx )
 ```
 
 The script scans the content text of these items with the following regular expression:
